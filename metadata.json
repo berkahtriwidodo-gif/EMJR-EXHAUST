@@ -1,0 +1,6 @@
+{
+  "name": "EMJR EXHAUST - Motorcycle Exhaust Manufacturer & Store",
+  "description": "Website resmi EMJR EXHAUST. Produsen & toko knalpot motor fullset, leheran, dan custom. Pilihan material stainless steel, galvanis, dan monel untuk Honda Astrea, Supra X, Karisma, Revo, dan motor lainnya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

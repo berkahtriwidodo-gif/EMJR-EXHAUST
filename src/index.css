@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #101010;
+    color: #F6F5F2;
+  }
+  
+  h1, h2, h3, .font-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+}
+
+/* Industrial automotive scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B35C9;
+}
+
+/* Automotive badge & border accents */
+.border-industrial {
+  border-color: #262626;
+}
+
+.bg-charcoal {
+  background-color: #171717;
+}
+
+.bg-dark-surface {
+  background-color: #141414;
+}
+
+.text-brand-purple {
+  color: #8B35C9;
+}
+
+.bg-brand-purple {
+  background-color: #8B35C9;
+}
+
+.border-brand-purple {
+  border-color: #8B35C9;
+}
